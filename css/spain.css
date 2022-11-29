@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: blueviolet;
+}
+main {
+    padding-top: 5%;
+    background-color: chocolate;
+}
+#slide {
+    text-align: center;
+}
+#sec1 {
+    height: auto;
+    width: 100vw;
+    padding: 5% 0 5% 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lieux, .plats {
+    
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color: bisque;
+}
+.lieux > h1, .plats > h1 {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+
+.lieux > img {
+    height: fit-content;
+    width: fit-content
+}
+
+.plats > img {
+    height: fit-content;
+    width: fit-content;
+}
+
+
+
+footer {
+    background-color: blueviolet;
+}
