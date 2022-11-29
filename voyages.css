@@ -1,4 +1,47 @@
+footer{
+    background-color: #2e475d;
+    padding: 2% 2% 1% 2%;
+    
+}
+.index__footer{
+    display: flex;
+    justify-content: space-around;
+    border: #ff5c35 2px solid;
+    
+}
+footer nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
 
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 140%;
+}
+.index__footer ul{
+    display: flex;
+    margin-top: 5%;
+}
+.index__footer ul a{
+    margin-left: 20%;
+}
+.index__footer img{
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+article a:hover{
+    transform: scale(2);
+    transform-box:;
+
+}
+
+ul a:hover{
+    transform: scale(2);
+}
 
 
 
