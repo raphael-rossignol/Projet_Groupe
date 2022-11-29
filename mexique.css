@@ -1,0 +1,67 @@
+/*---mexique.css---*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*---img background---*/
+
+.pays__section--background > img{
+    max-width: 100%;
+}
+
+/*---section title---*/
+
+section .pays__section--title{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+/*---articles---*/
+
+article{
+    display: flex;
+    flex-direction: row;
+}
+
+article > img{
+    margin-bottom:20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 217px;
+    max-height: 307px;
+}
+
+#img1{
+    box-shadow: rgb(141, 28, 86) 10px 10px 15px 2px;
+    
+}
+#img2{
+    box-shadow: rgb(99, 167, 165) 10px 10px 15px 2px;
+}
+#img3{
+    box-shadow: rgb(105, 151, 77) 10px 10px 15px 2px;
+}
+#img4{
+    box-shadow: rgb(167, 144, 46) 10px 10px 15px 2px;
+}
+#img5{
+    box-shadow: rgb(109, 28, 141) 10px 10px 15px 2px;
+}
+#img6{
+    box-shadow: rgb(151, 26, 26) 10px 10px 15px 2px;
+}
+
+article .pays__article--text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: rgb(60, 60, 60) 10px 10px 15px 2px;
+}
+
