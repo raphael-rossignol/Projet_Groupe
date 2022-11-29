@@ -1,7 +1,7 @@
 footer{
     background-color: #2e475d;
     padding: 2% 2% 1% 2%;
-    
+    position: absolute; bottom: 0; left: 0; right: 0;
 }
 .index__footer{
     display: flex;
