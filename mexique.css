@@ -1,0 +1,171 @@
+/*---mexique.css---*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*---header.css---*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+header img{
+    width: 10%;
+}
+
+header .index__header--nav{
+    margin: 20px;
+    padding: 20px;
+}
+
+header a{
+    padding: 80px;
+    text-decoration: none;
+    outline: none;
+}
+
+a:visited {
+    color: black;
+  }
+  a:active {
+    color: rgb(0, 255, 242);
+  }
+  a:hover {
+   color: rgb(0, 255, 242);
+  }
+a:visited {
+        color: black;
+      }
+a:active {
+        color: rgb(0, 255, 242);
+      }
+a:hover {
+       color: rgb(0, 255, 242);
+      }
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+
+/*---img background---*/
+
+.pays__section--background > img{
+    max-width: 100%;
+}
+
+/*---section title---*/
+
+section .pays__section--title{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+
+/*---articles---*/
+
+article{
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+}
+
+article > img{
+    margin-bottom:20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 217px;
+    max-height: 307px;
+}
+
+#img1{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
+    
+}
+#img2{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
+}
+#img3{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
+}
+#img4{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
+}
+#img5{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
+}
+#img6{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
+}
+
+article .pays__article--text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
+    width: 50%;
+}
+h2{
+    background-color: pink;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+/*---Footer---*/
+
+footer{
+    background-color: #4891a3;
+    padding: 2% 2% 1% 2%;
+}
+.index__footer{
+    display: flex;
+    justify-content: space-around;
+    border: pink 2px solid;
+    
+}
+footer nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 140%;
+}
+.index__footer ul{
+    display: flex;
+    margin-top: 5%;
+}
+.index__footer ul a{
+    margin-left: 20%;
+}
+.index__footer img{
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+article a:hover{
+    transform: scale(2);
+
+}
+
+ul a:hover{
+    transform: scale(2);
+}

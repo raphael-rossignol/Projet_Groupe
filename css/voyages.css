@@ -21,25 +21,52 @@ footer nav a{
     text-decoration: none;
     font-size: 140%;
 }
-.index__footer ul{
+header{
     display: flex;
-    margin-top: 5%;
-}
-.index__footer ul a{
-    margin-left: 20%;
-}
-.index__footer img{
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-}
-article a:hover{
-    transform: scale(2);
-
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
-ul a:hover{
-    transform: scale(2);
+header img{
+    width: 10%;
+}
+
+header .index__header--nav{
+    margin: 20px;
+    padding: 20px;
+}
+
+header a{
+    padding: 80px;
+    text-decoration: none;
+    outline: none;
+}
+
+a:visited {
+    color: black;
+  }
+  a:active {
+    color: rgb(0, 255, 242);
+  }
+  a:hover {
+   color: rgb(0, 255, 242);
+  }
+a:visited {
+        color: black;
+      }
+a:active {
+        color: rgb(0, 255, 242);
+      }
+a:hover {
+       color: rgb(0, 255, 242);
+      }
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
 }
 
 
@@ -102,3 +129,18 @@ article > img{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  @keyframes slide {
+  0%, 14.81%, 100% {
+    transform: translate(0,0);
+  }
+  25.93%, 40.74% {
+    transform: translate(-25%,0);
+  }
+  51.85%, 66.67% {
+    transform: translate(-50%,0);
+  }
+  77.78%, 92.59% {
+    transform: translate(-75%,0);
+  }
+}

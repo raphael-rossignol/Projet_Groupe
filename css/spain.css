@@ -15,6 +15,7 @@ main {
     background-color: wheat;
     
 }
+
 #slide {
     display: flex;
     text-align: center;
@@ -32,6 +33,12 @@ justify-content: center;
     display: flex;
     flex-direction: column;
 }
+h1 {
+    margin: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 .row1, .row2 {
     display: flex;
     flex-direction: row;
@@ -40,12 +47,12 @@ justify-content: center;
 }
 .item1, .item2, .item3{
     border-radius: 5px;
-    margin: 2% 0 0 0;
+    margin: 0% 0 0 0;
     background-color: wheat;
     width: 500px;
     height:400px;
 }
-.vid1, .vid2{
+.vid {
     -moz-border-radius: 15px;
     border-radius: 5px;
     overflow:hidden;
@@ -55,16 +62,80 @@ justify-content: center;
     
     background-image: url(../images/spain/Catalogne/lieux/wp4196581-la-sagrada-familia-wallpapers.jpg);
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 .item4, .item5, .item6 {
     border-radius: 5px;
-    margin: 5% 0 5% 0;
+    margin: 0% 0 5% 0;
     background-color: rgb(105, 84, 44);
     width: 500px;
     height:400px;
     gap: 10px;
 }
 
+footer{
+    background-color: #4891a3;
+    padding: 2% 2% 1% 2%;
+}
+.index__footer{
+    display: flex;
+    justify-content: space-around;
+    border: pink 2px solid;
+    
+}
+footer nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 140%;
+}
+.index__footer ul{
+    display: flex;
+    margin-top: 5%;
+}
+.index__footer ul a{
+    margin-left: 20%;
+}
+.index__footer img{
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+article a:hover{
+    transform: scale(2);
+
+}
+
+ul a:hover{
+    transform: scale(2);
+}
+
+/* animatons & frames*/
+
+.diaporama {
+    animation: slide 13.5s ease infinite 0s;
+    width: 400%;
+  }
+
+@keyframes slide {
+    0%, 14.81%, 100% {
+      transform: translate(0,0);
+    }
+    25.93%, 40.74% {
+      transform: translate(-25%,0);
+    }
+    51.85%, 66.67% {
+      transform: translate(-50%,0);
+    }
+    77.78%, 92.59% {
+      transform: translate(-75%,0);
+    }
+  }
 
 
