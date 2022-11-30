@@ -5,6 +5,57 @@
     margin: 0;
 }
 
+/*---header.css---*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+header img{
+    width: 10%;
+}
+
+header .index__header--nav{
+    margin: 20px;
+    padding: 20px;
+}
+
+header a{
+    padding: 80px;
+    text-decoration: none;
+    outline: none;
+}
+
+a:visited {
+    color: black;
+  }
+  a:active {
+    color: rgb(0, 255, 242);
+  }
+  a:hover {
+   color: rgb(0, 255, 242);
+  }
+a:visited {
+        color: black;
+      }
+a:active {
+        color: rgb(0, 255, 242);
+      }
+a:hover {
+       color: rgb(0, 255, 242);
+      }
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+
 /*---img background---*/
 
 .pays__section--background > img{
@@ -71,7 +122,7 @@ h2{
     background-color: pink;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: whitesmoke;
+    color: white;
 }
 
 /*---Footer---*/
