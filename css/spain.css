@@ -2,12 +2,61 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* debut header & nav */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
 
+header img{
+    width: 7%;
+}
+
+header .index__header--nav{
+    margin: 20px;
+    padding: 20px;
+}
+
+header a{
+    padding: 80px;
+    text-decoration: none;
+    outline: none;
+}
+
+a:visited {
+    color: black;
+  }
+  a:active {
+    color: rgb(0, 255, 242);
+  }
+  a:hover {
+   color: rgb(0, 255, 242);
+  }
+a:visited {
+        color: black;
+      }
+a:active {
+        color: rgb(0, 255, 242);
+      }
+a:hover {
+       color: rgb(0, 255, 242);
+      }
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+/* fin header & nav */
 main {
     height: 100%;
     display: flex;
     flex-direction: column;
     background-color: violet;
+    background-attachment: fixed;
     
 }
 #slide {
@@ -120,7 +169,9 @@ ul a:hover{
 
 .diaporama {
     animation: slide 13.5s ease infinite 0s;
-    width: 400%;
+    width: 100vw;
+    height: 100vh;
+    
   }
 
 @keyframes slide {
