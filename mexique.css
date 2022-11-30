@@ -17,7 +17,7 @@ header{
 }
 
 header img{
-    width: 10%;
+    width: 7%;
 }
 
 header .index__header--nav{
@@ -86,6 +86,9 @@ article > img{
     max-width: 217px;
     max-height: 307px;
 }
+article img:hover{
+    transform: scale(1);
+}
 
 #img1{
     box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
@@ -145,7 +148,6 @@ footer nav{
 
 }
 footer nav a{
-    color: white;
     text-decoration: none;
     font-size: 140%;
 }
