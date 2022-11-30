@@ -12,12 +12,19 @@ main {
 }
 #slide {
     height: 100vh;
-    background-color: red;
+    background-color: wheat;
     
 }
 #slide {
+    display: flex;
     text-align: center;
     align-items: center;
+
+justify-content: center;
+}
+.diapo {
+    width: 100vw;
+    height: 100vh;
 }
 #sec1 {
     height: 110vh;
@@ -37,6 +44,12 @@ main {
     background-color: wheat;
     width: 500px;
     height:400px;
+}
+.vid1, .vid2{
+    -moz-border-radius: 15px;
+    border-radius: 5px;
+    overflow:hidden;
+    box-shadow: 10%;
 }
 .item2 {
     
