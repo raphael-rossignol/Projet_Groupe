@@ -142,14 +142,15 @@ article{
     background-color: pink;
 }
 
-article > img{
+a img{
     margin-bottom:20px;
     margin-top: 20px;
     margin-left: 20px;
-    max-width: 217px;
-    max-height: 307px;
+    max-width: 250px;
+    height: 84%;
+ 
 }
-article img:hover{
+a img:hover{
     transform: scale(1);
 }
 
@@ -183,7 +184,7 @@ article .pays__article--text{
     background-color: white;
     box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
     width: 50%;
-}
+} 
 h2{
     background-color: pink;
     padding-top: 20px;
@@ -225,10 +226,6 @@ footer nav a{
     justify-content: center;
     width: 32px;
     height: 32px;
-}
-article a:hover{
-    transform: scale(2);
-
 }
 
 .index__footer > ul a:hover{
