@@ -1,0 +1,256 @@
+html {
+    text-align: left;
+    
+    }
+  
+  
+
+
+
+    body
+    {
+        background-image:url(https://th.bing.com/th/id/R.8ab13e6d06fbb8f0d51384b44fa4041c?rik=9s3w10NW6rh2dw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fZvvOZDZ.jpg&ehk=QTJ%2fFoCgOEnyIC8wfI11QnqLp%2f%2bBtzvfH6JLTkdPTiA%3d&risl=&pid=ImgRaw&r=0);
+        
+        background-size: cover;
+        
+    
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+/*---header.css---*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+header img{
+    width: 7%;
+}
+
+a:visited {
+    color: black;
+  }
+  a:active {
+    color: rgb(0, 255, 242);
+  }
+  a:hover {
+   color: rgb(0, 255, 242);
+  }
+a:visited {
+        color: black;
+      }
+a:active {
+        color: rgb(0, 255, 242);
+      }
+a:hover {
+       color: rgb(0, 255, 242);
+      }
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+/*----Sous-menu----*/
+
+#primary_nav_wrap{
+    margin-top:30px;
+    margin-right: 200px;
+}
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    color:black;
+    text-decoration:none;
+    padding:0 2px;
+    margin-right: 150px;
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:white
+}
+
+#primary_nav_wrap ul li a:hover
+{
+    color: #4891a3;
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:white;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block
+}
+
+
+
+
+
+
+h1 {
+
+font-size: 80px;
+color: black;
+margin-top: 0px;
+
+}
+
+.pays {
+color: rgb(0, 0, 0);
+font-size:large;
+position: relative;
+top:40px;
+margin: 100px;
+text-align: left;
+margin-top: 40px;
+    align-items: left;
+    width: 1050px;
+    margin: 0;
+    font-size: x-large;
+   
+}
+
+.img1 {
+
+    float:left;
+      
+    border: solid;
+    height: 40%;
+    width: 40%;
+
+
+}
+
+
+
+
+h3 {
+
+    font-size: 60px;
+    color: black;
+    margin-top: 150px;
+    margin-left: 550px;
+    }
+
+
+
+
+
+h5 {
+
+    font-size: 60px;
+    color: black;
+    margin-top: 80px;
+    margin-left: 450px;
+    }
+
+
+
+ 
+    
+.img2 {
+
+
+    float:left;
+    margin-top: 0px;
+    margin-left: -10px;
+    height: 20%;
+    width: 27%;
+    object-fit: contain;
+
+
+
+
+}
+
+
+
+.img3 {
+    margin-top: 500px;
+    margin-left: -20px;
+    float: center;
+    height: 10%;
+    width: 25%;
+    }
+
+
+.rugby {
+        
+    float:right;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: -400px;   
+        }    
+
+
+.img4 {
+float:left ;
+
+margin-top: 5px;
+
+}     
+
+
+.text {
+    
+    
+    color: black;
+    font-size: x-large;
+   
+
+}
+
+
