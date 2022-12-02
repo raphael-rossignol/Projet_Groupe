@@ -1,0 +1,97 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+.container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+h1 {
+    font-size: 3.25rem;
+}
+
+.menu-principal ul li {
+    padding: 15px 10px;
+}
+
+.background {
+    background-position-x: -350px;
+}
+
+.background p {
+    width: 305px;
+}
+
+.concept-flex {
+    display: contents;
+}
+
+.img-concept {
+    width: 290px;
+}
+
+.product-new .container {
+    display: contents;
+
+}
+
+.avantage .container {
+    display: contents;
+
+}
+
+.avantage div {
+    padding: 20px;
+}
+
+.information {
+    display: block
+}
+
+.information div {
+    padding: 20px;
+}
+
+.header_nav {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_nav img {
+    width: 18%;
+}
+
+#primary_nav_wrap {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#primary_nav_wrap ul a {
+    margin-right: 5px;
+
+}
+
+.index__footer img {
+    width: 25px;
+    height: 25px;
+}
+
+.index__footer ul a {
+    margin-left: 5%;
+}
+
+.index__footer ul {
+    padding-left: 0%;
+}
+
+.index__footer nav a{
+    font-size: 11px;
+}
+
+.index__footer {
+    justify-content: space-between
+
+}
+
+}
