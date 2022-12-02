@@ -1,0 +1,133 @@
+html {
+    text-align: left;
+    
+    }
+  
+  
+
+
+
+    body
+    {
+        background-image:url(https://th.bing.com/th/id/R.8ab13e6d06fbb8f0d51384b44fa4041c?rik=9s3w10NW6rh2dw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fZvvOZDZ.jpg&ehk=QTJ%2fFoCgOEnyIC8wfI11QnqLp%2f%2bBtzvfH6JLTkdPTiA%3d&risl=&pid=ImgRaw&r=0);
+        
+        background-size: cover;
+        
+    
+        }
+
+
+h1 {
+
+font-size: 80px;
+color: black;
+margin-top: 0px;
+
+}
+
+.pays {
+color: rgb(0, 0, 0);
+font-size:large;
+position: relative;
+top:40px;
+margin: 100px;
+text-align: left;
+margin-top: 40px;
+    align-items: left;
+    width: 1050px;
+    margin: 0;
+    font-size: x-large;
+   
+}
+
+.img1 {
+
+    float:left;
+      
+    border: solid;
+    height: 40%;
+    width: 40%;
+
+
+}
+
+
+
+
+h3 {
+
+    font-size: 60px;
+    color: black;
+    margin-top: 150px;
+    margin-left: 550px;
+    }
+
+
+
+
+
+h5 {
+
+    font-size: 60px;
+    color: black;
+    margin-top: 80px;
+    margin-left: 450px;
+    }
+
+
+
+ 
+    
+.img2 {
+
+
+    float:left;
+    margin-top: 0px;
+    margin-left: -10px;
+    height: 20%;
+    width: 27%;
+    object-fit: contain;
+
+
+
+
+}
+
+
+
+.img3 {
+    margin-top: 500px;
+    margin-left: -20px;
+    float: center;
+    height: 10%;
+    width: 25%;
+    }
+
+
+.rugby {
+        
+    float:right;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: -400px;   
+        }    
+
+
+.img4 {
+float:left ;
+
+margin-top: 5px;
+
+}     
+
+
+.text {
+    
+    
+    color: black;
+    font-size: x-large;
+   
+
+}
+
+
