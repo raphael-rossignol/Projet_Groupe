@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* debut header & nav */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 9999;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    align-items: center;
+}
+
+header img{
+    width: 7%;
+}
+
+a:visited {
+    color: black;
+  }
+  a:active {
+    color: rgb(0, 255, 242);
+  }
+  a:hover {
+   color: rgb(0, 255, 242);
+  }
+a:visited {
+        color: black;
+      }
+a:active {
+        color: rgb(0, 255, 242);
+      }
+a:hover {
+       color: rgb(0, 255, 242);
+      }
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+/*----Sous-menu----*/
+
+#primary_nav_wrap{
+    margin-top:0px;
+    margin-right: 0px;
+}
+.fontsize {
+    font-size: 20px;
+}
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    color:black;
+    text-decoration:none;
+    padding:0 2px;
+    margin-right: 150px;
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:white
+}
+
+#primary_nav_wrap ul li a:hover
+{
+    color: #4891a3;
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:white;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block
+}
+/* fin header & nav */
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    background-attachment: fixed;
+    
+}
+
+#slide {
+    height: 90vh;
+    background-color: wheat;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#sec1 {
+    height: 130vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin: 50px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.row1, .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item1, .item2, .item3{
+    border-radius: 5px;
+    margin: 0% 0 0 0;
+    background-color: wheat;
+    width: 500px;
+    height:400px;
+}
+.vid {
+    -moz-border-radius: 15px;
+    border-radius: 5px;
+    overflow:hidden;
+    box-shadow: 10%;
+}
+.item2 {
+    
+    background-image: url(../images/spain/Catalogne/lieux/wp4196581-la-sagrada-familia-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item3 > h1{
+    margin: 5%;
+}
+.item4, .item5, .item6 {
+    border-radius: 5px;
+    margin: 0% 0 5% 0;
+    background-color: rgb(105, 84, 44);
+    width: 500px;
+    height:400px;
+    gap: 10px;
+}
+/*------ footer ------*/
+footer{
+    background-color: #4891a3;
+    padding: 2% 2% 1% 2%;
+}
+.index__footer{
+    display: flex;
+    justify-content: space-around;
+    border: pink 2px solid;
+    
+}
+footer nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+footer nav a{
+    text-decoration: none;
+    font-size: 140%;
+}
+.index__footer ul{
+    display: flex;
+    margin-top: 5%;
+}
+.index__footer ul a{
+    margin-left: 20%;
+}
+.index__footer img{
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+.index__footer > ul a:hover{
+    transform: scale(2);
+}
+
+/* animatons & frames*/
+
+.diaporama {
+    animation: slide 17.5s ease infinite 0s;
+    width: 100%;
+    height: 100%;
+}
+
+ @keyframes slide {
+    0%, 17.14%, 100% {
+        background-image: url(../images/spain/barcelona-flight-airplane-plane.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    25.71%, 42.86% {
+        background-image: url(../images/spain/2527022.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+    }
+    51.43%, 68.57% {
+        background-image: url(../images/spain/Vistas-Catedral-Santiago-159333983-shutterstock.jpg_1911827709.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+    }
+    77.14%, 94.29% {
+        background-image: url(../images/spain/wallpaperflare.com_wallpaper.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+    }
+  }
+
+
