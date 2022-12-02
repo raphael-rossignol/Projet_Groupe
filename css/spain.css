@@ -10,21 +10,14 @@ header{
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 9999;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    align-items: center;
 }
 
 header img{
     width: 7%;
-}
-
-header .index__header--nav{
-    margin: 20px;
-    padding: 20px;
-}
-
-header a{
-    padding: 80px;
-    text-decoration: none;
-    outline: none;
 }
 
 a:visited {
@@ -50,6 +43,84 @@ a{
     outline: none;
     color: black;
 }
+/*----Sous-menu----*/
+
+#primary_nav_wrap{
+    margin-top:0px;
+    margin-right: 0px;
+}
+.fontsize {
+    font-size: 20px;
+}
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    color:black;
+    text-decoration:none;
+    padding:0 2px;
+    margin-right: 150px;
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:white
+}
+
+#primary_nav_wrap ul li a:hover
+{
+    color: #4891a3;
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:white;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block
+}
 /* fin header & nav */
 main {
     height: 100%;
@@ -59,18 +130,13 @@ main {
     background-attachment: fixed;
     
 }
+
 #slide {
     height: 100vh;
     background-color: wheat;
+    position: relative;
+    overflow: hidden;
     
-}
-
-#slide {
-    display: flex;
-    text-align: center;
-    align-items: center;
-
-justify-content: center;
 }
 .diapo {
     width: 100vw;
@@ -140,7 +206,6 @@ footer nav{
 
 }
 footer nav a{
-    color: white;
     text-decoration: none;
     font-size: 140%;
 }
@@ -156,36 +221,42 @@ footer nav a{
     width: 32px;
     height: 32px;
 }
-article a:hover{
-    transform: scale(2);
 
-}
-
-ul a:hover{
+.index__footer > ul a:hover{
     transform: scale(2);
 }
 
 /* animatons & frames*/
 
 .diaporama {
-    animation: slide 13.5s ease infinite 0s;
-    width: 100vw;
-    height: 100vh;
-    
-  }
+    animation: slide 17.5s ease infinite 0s;
+    width: 100%;
+    height: 100%;
+}
 
-@keyframes slide {
-    0%, 14.81%, 100% {
-      transform: translate(0,0);
+ @keyframes slide {
+    0%, 17.14%, 100% {
+        background-image: url(../images/spain/barcelona-flight-airplane-plane.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
-    25.93%, 40.74% {
-      transform: translate(-25%,0);
+    25.71%, 42.86% {
+        background-image: url(../images/spain/2527022.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
     }
-    51.85%, 66.67% {
-      transform: translate(-50%,0);
+    51.43%, 68.57% {
+        background-image: url(../images/spain/Vistas-Catedral-Santiago-159333983-shutterstock.jpg_1911827709.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
     }
-    77.78%, 92.59% {
-      transform: translate(-75%,0);
+    77.14%, 94.29% {
+        background-image: url(../images/spain/wallpaperflare.com_wallpaper.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
     }
   }
 
