@@ -3,54 +3,134 @@
 body{
     
     margin: 0%;
-    background-color: #f3f3f3;
+    background-color: #D4F0F0;
     background-image: ;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;   
 }
 
-/* section 1 - menu navigation + logo */
-header{
-    background-attachment: fixed;
-    opacity: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 100%;
-    height: 20vh;
-    
-}
-header > img{
-    width: 30vh;
-    height: 30vh;
-    display: flex;
-    justify-content: flex-end;
-    justify-items: flex-end;
-    margin-bottom: ;
-}
-header > nav{
-    margin-bottom: 10vh;
-    font-size: 2vh;
-    
-}
-.index__header--nav a{
-    margin: 10vh;
-    text-decoration: none;
-    color: rgb(255, 137, 2);
-    font-size: 1.5em;
-}
-.index__header--nav a:hover{
-    color: #000;
-    transform: rotate3d(180);
-}
-.index__header--logo{
-    display: flex;
-    justify-content: flex-end;
-    justify-items: flex-end;
-    margin-bottom: 0%;
+
+/*---header.css---*/
+
+*{
+    padding: 0;
+    margin: 0;
 }
 
+/*---header.css---*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+header img{
+    width: 7%;
+}
+
+a:visited {
+    color: black;
+  }
+  a:active {
+    color: rgb(0, 255, 242);
+  }
+  a:hover {
+   color: rgb(0, 255, 242);
+  }
+a:visited {
+        color: black;
+      }
+a:active {
+        color: rgb(0, 255, 242);
+      }
+a:hover {
+       color: rgb(0, 255, 242);
+      }
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+/*----Sous-menu----*/
+
+#primary_nav_wrap{
+    margin-top:30px;
+    margin-right: 200px;
+}
+
+#primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul a
+{
+    display:block;
+    color:black;
+    text-decoration:none;
+    padding:0 2px;
+    margin-right: 150px;
+}
+
+#primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    background:white
+}
+
+#primary_nav_wrap ul li a:hover
+{
+    color: #4891a3;
+}
+
+#primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:white;
+    padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+    display:block
+}
 
 
 
@@ -62,10 +142,7 @@ header > nav{
 .wrap {
 	display: flex;
 	flex-direction: column;
-    align-items: ;
-	justify-content:;
 	gap: 1rem;
-	text-align: ;
 	margin: 2vh;
     min-height: 60vh;
 }
@@ -112,6 +189,8 @@ article > img{
 }
 
 
+
+
 .thailand{
     display: flex;
     flex-direction: column;
@@ -132,6 +211,9 @@ article > img{
     display: flex;
     margin-top: 10vh;
     margin-bottom: 9vh;
+    border: 5px solid #7c4400;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px -5px #7c4400;
 }
 .thailand__main--article1{
     margin-left: 3vw;
@@ -152,21 +234,27 @@ article > img{
     flex-direction: column;
     justify-items: center;
     justify-content: center;
+    text-align: center;
+    padding: 1% 1% 1% 1%
 
 }
 .thailand__main--art4{
-    border: #7c4400 2px solid;
-    border-radius: 10% 10% 10% 10%;
+    border: 5px solid #7c4400;
+	border-radius: 10px;
+    width: auto;
+    box-shadow: 5px 5px 20px -5px #7c4400;
+
 }
 .thailand__main--art4 > img{
     display: flex;
     justify-items: center;
     justify-content: center;
-    width: 98%;
-    border-radius: 15% 15% 0% 0%;
+    width: 100%;
+    border-radius: 5px;
 }
 
 /* movi */
+
 
 /* Map */
 .map, .movi{
@@ -180,14 +268,15 @@ article > img{
 
 
   /* footer */
-  footer{
-    background-color: #b1b1b1;
+
+footer{
+    background-color: #4891a3;
     padding: 2% 2% 1% 2%;
 }
 .index__footer{
     display: flex;
     justify-content: space-around;
-    border: #3642af 2px solid;
+    border: pink 2px solid;
     
 }
 footer nav{
@@ -198,7 +287,6 @@ footer nav{
 
 }
 footer nav a{
-    color: white;
     text-decoration: none;
     font-size: 140%;
 }
@@ -214,16 +302,7 @@ footer nav a{
     width: 32px;
     height: 32px;
 }
-article a:hover{
-    transform: scale(2);
-    transform-box:;
 
-}
-
-ul a:hover{
+.index__footer > ul a:hover{
     transform: scale(2);
-}
-.thailand__map{
-    max-height: 45vh;
-    max-width: 45vh;
 }
