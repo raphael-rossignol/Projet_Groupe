@@ -1,17 +1,4 @@
-
-/* body */
-body{
-    
-    margin: 0%;
-    background-color: #D4F0F0;
-    background-image: ;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;   
-}
-
-
-/*---header.css---*/
+/*---mexique.css---*/
 
 *{
     padding: 0;
@@ -132,142 +119,80 @@ a{
     display:block
 }
 
+/*---img background---*/
 
+.pays__section--background > img{
+    max-width: 100%;
+}
 
-/* main */
-/* annim images */
-.gallery:hover img:not(:hover) {
-	opacity: 0.3;
-}
-.wrap {
-	display: flex;
-	flex-direction: column;
-	gap: 1rem;
-	margin: 2vh;
-    min-height: 60vh;
-}
-h1{
+/*---section title---*/
+
+section .pays__section--title{
     display: flex;
     justify-content: center;
+    padding: 80px;
 }
-.gallery {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	gap: 1rem;
-	padding: 10vh;
+
+
+/*---articles---*/
+
+article{
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+}
+
+a img{
+    margin-bottom:20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 250px;
+    height: 84%;
+ 
+}
+a img:hover{
+    transform: scale(1);
+}
+
+#img1{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
     
 }
-
-/* image 1 */
-.thailand__main--img3 {
-	max-width: 250px;
-	border: 5px solid #7c4400;
-	border-radius: 10px;
-	box-shadow: 5px 5px 20px -5px #7c4400;
-	transition: 0.5s;
-	cursor: pointer;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+#img2{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
 }
-.thailand__main--img{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
-    align-items: center;
+#img3{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
 }
-.thailand__main--img > img{
-    max-height: 25vw ;
+#img4{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
 }
-.thailand__main--img > h2{
-    animation: 3s ease-in 1s infinite reverse both running slidein;
+#img5{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
 }
-article > img{
-    max-height: 30vh;
+#img6{
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
 }
 
-
-
-
-.thailand{
+article .pays__article--text{
     display: flex;
     flex-direction: column;
-    width: ;
-    margin: 10%;
-    margin-top: 10vh;
-    margin-bottom: 9vh;
-}
-#article-2{
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
-}
-#article-2 > div{
-    margin-right: 3vw;
-}
-.thailand__main--article{
-    display: flex;
-    margin-top: 10vh;
-    margin-bottom: 9vh;
-    border: 5px solid #7c4400;
-	border-radius: 10px;
-	box-shadow: 5px 5px 20px -5px #7c4400;
-}
-.thailand__main--article1{
-    margin-left: 3vw;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: rgb(130, 93, 125) 10px 10px 15px 2px;
+    width: 50%;
+} 
+h2{
+    background-color: pink;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
 }
 
-
-
-/* dernier articles  */
-.thailand__main--art2 {
-    display: flex;
-    margin-top: 5vh;
-    justify-content: space-around;
-
-}
-.thailand__main--art3{
-    width: 25vw;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 1% 1% 1% 1%
-
-}
-.thailand__main--art4{
-    border: 5px solid #7c4400;
-	border-radius: 10px;
-    width: auto;
-    box-shadow: 5px 5px 20px -5px #7c4400;
-
-}
-.thailand__main--art4 > img{
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    width: 100%;
-    border-radius: 5px;
-}
-
-/* movi */
-
-
-/* Map */
-.map, .movi{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10vh;
-    margin-top: 10vh;
-}
-
-
-
-
-  /* footer */
+/*---Footer---*/
 
 footer{
     background-color: #4891a3;
