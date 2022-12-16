@@ -389,7 +389,8 @@ header {
   border-color: #fff;
   content: "+";
   transform: rotate(-45deg);
-  color: pink;
+  color: black;
+  position: fixed;
 }
 
 @keyframes anilogo {
